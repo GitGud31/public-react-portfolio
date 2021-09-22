@@ -1,0 +1,13 @@
+.btn-cv {
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    background-color: #33AA72 !important;
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cv:hover {
+    background-color: #018f4d !important;
+}

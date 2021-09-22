@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+/*  */
+
+.navbar-custom {
+    padding: 0 auto;
+    height: 55px;
+    width: 100%;
+    background-color: #1D2430;
+}
+
+.logo {
+    margin-left: 50px;
+    width: 38px;
+    height: 40px;
+}
+
+.nav-link-text {
+    font-family: 'Red Hat Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 22px;
+    color: white !important;
+    transition: color 0.3s ease;
+    padding: 20px;
+}
+
+.nav-link-text:hover {
+    color: #33AA72 !important;
+    text-decoration: none;
+}
+
+/* Tablet view */
+
+@media (max-width: 768px) {
+    .nav-link-text {
+        padding: 5px;
+    }
+    .logo {
+        margin-left: 50px;
+    }
+    .btn-cv {
+        width: 100px;
+    }
+}
+
+/* On mobile view */
+
+@media only screen and (max-width: 576px) {
+    /* Stylize the dropdown navbar */
+    #responsive-navbar-nav {
+        background-color: #1D2430;
+        padding: 1.25rem;
+        border-radius: 0 0 30px 30px;
+        margin-left: 0;
+    }
+    /* hide small logo */
+    .logo {
+        display: none;
+    }
+    /* Center navbar links */
+    .nav-link {
+        text-transform: uppercase;
+        text-align: center;
+    }
+    /* Expand DOWNLOAD CV button to full width */
+    .btn-cv {
+        width: 100%;
+    }
+}

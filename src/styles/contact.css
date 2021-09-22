@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+/*  */
+
+.contact-section {
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title h1 {
+    padding: 20px;
+    color: white;
+    font-family: "Righteous";
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.contact-title span {
+    color: #33AA72;
+}
+
+.contact-main-text h6 {
+    padding: 0 20px 20px 20px;
+    width: 400px;
+    color: white;
+    font-family: "Red Hat Display";
+    font-weight: 200;
+}
+
+.mail-img img {
+    width: 300px;
+}
+
+.sized-box {
+    height: 0;
+    width: 100px;
+}
+
+.contact-form {
+    width: 400px;
+    padding: 10px;
+    background-color: #33aa7395;
+    border-radius: 3px;
+}
+
+.form-label {
+    color: white;
+    font-family: "Red Hat Display";
+    font-weight: 200;
+}
+
+.submit-button {
+    width: 100%;
+    border: 0;
+    color: white;
+    font-family: "Red Hat Display";
+    font-weight: 200;
+    text-transform: uppercase;
+    background-color: #33AA72;
+}
+
+.submit-button:hover {
+    background-color: #00a558;
+}
+
+/* Tablet view */
+
+@media (max-width: 768px) {
+    .contact-section {
+        margin: 0;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+    .contact-title h1 {
+        color: white;
+        font-family: "Righteous";
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    .contact-main-text {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-main-text h6 {
+        text-align: center;
+        color: white;
+        font-family: "Red Hat Display";
+        font-weight: 200;
+    }
+    .contact-form {
+        width: 95%;
+        padding: 10px;
+        background-color: #33aa7395;
+        border-radius: 3px;
+    }
+    .mail-img img {
+        width: 300px;
+        padding: 0 20px 20px 20px;
+    }
+}
+
+/* Mobile view */
+
+@media (max-width: 576px) {
+    .contact-section {
+        margin: 0;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+    .contact-title h1 {
+        padding: 0;
+        color: white;
+        font-family: "Righteous";
+        font-size: 40px;
+        line-height: 60px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    .contact-main-text {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-main-text h6 {
+        text-align: center;
+        color: white;
+        font-family: "Red Hat Display";
+        font-weight: 200;
+        width: 100%;
+    }
+    .contact-form {
+        width: 95%;
+        padding: 10px;
+        background-color: #33aa7395;
+        border-radius: 3px;
+    }
+    .mail-img img {
+        width: 300px;
+        padding: 0 20px 20px 20px;
+    }
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+/*  */
+
+.about-section {
+    margin: 0;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px 20px 0px;
+}
+
+.about-title h1 {
+    padding-bottom: 20px;
+    color: white;
+    font-family: "Righteous";
+    font-size: 60px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.about-title span {
+    color: #33AA72;
+}
+
+.about-main-text h6 {
+    width: 400px;
+    color: white;
+    font-family: "Red Hat Display";
+    font-weight: 200;
+    padding: 0 0 20px 0;
+}
+
+.profile-img img {
+    padding-top: 40px;
+    width: 300px;
+}
+
+.sized-box {
+    height: 0;
+    width: 100px;
+}
+
+/* Tablet view */
+
+@media (max-width: 768px) {
+    .about-section {
+        margin: 0;
+        padding: 100px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+    }
+    .about-title h1 {
+        color: white;
+        font-family: "Righteous";
+        font-size: 60px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    .about-main-text h6 {
+        width: 80%;
+        color: white;
+        font-family: "Red Hat Display";
+        font-weight: 200;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sized-box {
+        height: 0;
+        width: 0;
+    }
+    .btn-cv {
+        width: 80%;
+    }
+}
+
+/* Mobile view */
+
+@media (max-width: 576px) {
+    .about-section {
+        margin: 0;
+        padding: 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 80%;
+    }
+    .about-title h1 {
+        color: white;
+        font-family: "Righteous";
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    .about-main-text h6 {
+        width: 300px;
+        color: white;
+        font-family: "Red Hat Display";
+        font-weight: 200;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .sized-box {
+        height: 0;
+        width: 0;
+    }
+    .btn-cv {
+        width: 100%;
+    }
+}

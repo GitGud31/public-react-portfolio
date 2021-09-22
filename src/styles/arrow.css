@@ -1,0 +1,31 @@
+.arrow {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow img {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    background-color: #212529;
+    border-radius: 50px;
+}
+
+/* Tablet view */
+
+@media (max-width: 768px) {
+    .arrow {
+        display: none;
+    }
+}
+
+/* Mobile view */
+
+@media (max-width: 576px) {
+    .arrow {
+        display: none;
+    }
+}
