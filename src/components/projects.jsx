@@ -78,7 +78,6 @@ const projects = [
             Assets.assets[2][3],
             Assets.assets[2][4],
             Assets.assets[2][5],
-            Assets.assets[2][6],
         ],
     },
 
@@ -100,7 +99,6 @@ const projects = [
             Assets.assets[3][5],
             Assets.assets[3][6],
             Assets.assets[3][7],
-            Assets.assets[3][8],
         ],
     },
 
