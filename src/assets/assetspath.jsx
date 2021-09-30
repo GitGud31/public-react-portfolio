@@ -43,6 +43,8 @@ import Cigma7 from "../assets/showcase/cigma/cigma7.png";
 
 import Teleport1 from "../assets/showcase/teleport/teleport1.png";
 
+import Weathery1 from "../assets/showcase/weathery/mockup.jpg";
+
 class Assets {
     static assets = [
         [Hirfa1, Hirfa2, Hirfa3, Hirfa4, Hirfa5],
@@ -50,6 +52,7 @@ class Assets {
         [BFast1, BFast2, BFast3, BFast4, BFast5, BFast6],
         [GNews1, GNews2, GNews3, GNews4, GNews5, GNews6, GNews7, GNews8],
         [Teleport1],
+        [Weathery1],
         [CarteFid1, CarteFid2, CarteFid3, CarteFid4],
         [Cigma1, Cigma2, Cigma3, Cigma4, Cigma5, Cigma6, Cigma7],
     ];

@@ -77,7 +77,7 @@ const projects = [
             Assets.assets[2][2],
             Assets.assets[2][3],
             Assets.assets[2][4],
-            Assets.assets[2][5],
+            Assets.assets[2][5]
         ],
     },
 
@@ -98,7 +98,7 @@ const projects = [
             Assets.assets[3][4],
             Assets.assets[3][5],
             Assets.assets[3][6],
-            Assets.assets[3][7],
+            Assets.assets[3][7]
         ],
     },
 
@@ -115,18 +115,35 @@ const projects = [
         ],
     },
 
+    /* Weathery */
+    {
+        title: "Weathery",
+        description: `A simple Web app built with React, featuring: 
+        - Search functionality 
+        - Celsius to Fahrenheit (and vice versa) conversion 
+        - Get weather by coordinates 
+        - Get Today's and next week's weather info 
+        - Error page.
+        `,
+        category: "web",
+        link: "https://github.com/GitGud31/Weathery",
+        img: [
+            Assets.assets[5][0],
+        ],
+    },
+
     /* carte fiedelite */
     {
         title: "Carte Fidèlité",
         description: `A loyalty card design for a supermarket
         `,
         category: "design",
-        link: "",
+        link: "", 
         img: [
-            Assets.assets[5][0],
-            Assets.assets[5][1],
-            Assets.assets[5][2],
-            Assets.assets[5][3],
+            Assets.assets[6][0],
+            Assets.assets[6][1],
+            Assets.assets[6][2],
+            Assets.assets[6][3],
         ],
     },
 
@@ -137,17 +154,16 @@ const projects = [
         category: "design",
         link: "",
         img: [
-            Assets.assets[6][0],
-            Assets.assets[6][1],
-            Assets.assets[6][2],
-            Assets.assets[6][3],
-            Assets.assets[6][4],
-            Assets.assets[6][5],
-            Assets.assets[6][6],
+            Assets.assets[7][0],
+            Assets.assets[7][1],
+            Assets.assets[7][2],
+            Assets.assets[7][3],
+            Assets.assets[7][4],
+            Assets.assets[7][5],
+            Assets.assets[7][6],
         ],
     },
 ];
-
 
 const getItems = () =>
     projects.map((p, key) => ({
